@@ -21,8 +21,8 @@ export function initHeroAnimations() {
         tl.add({
           targets: heroBadge,
           opacity: [0, 1],
-          scale: [0.8, 1],
-          duration: 400
+          scale: [0.96, 1],
+          duration: 420
         });
       }
 
@@ -31,8 +31,8 @@ export function initHeroAnimations() {
         tl.add({
           targets: heroTitle,
           opacity: [0, 1],
-          translateY: [20, 0],
-          duration: 600
+          translateY: [24, 0],
+          duration: 680
         }, '-=200'); // Overlap with badge
       }
 
@@ -41,8 +41,8 @@ export function initHeroAnimations() {
         tl.add({
           targets: heroDescription,
           opacity: [0, 1],
-          translateY: [10, 0],
-          duration: 500
+          translateY: [16, 0],
+          duration: 560
         }, '-=300');
       }
 
@@ -51,10 +51,10 @@ export function initHeroAnimations() {
         tl.add({
           targets: heroButtons,
           opacity: [0, 1],
-          translateY: [10, 0],
-          duration: 400,
-          delay: (el, i) => i * 100
-        }, '-=200');
+          translateY: [16, 0],
+          duration: 420,
+          delay: (el, i) => i * 90
+        }, '-=220');
       }
     }, 300);
   }

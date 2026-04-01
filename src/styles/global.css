@@ -70,12 +70,11 @@
   /* Performance optimizations for animations */
   .spring-hover,
   .animate-fade-in-up,
-  .service-card,
   .hero-badge,
   .hero-title,
   .hero-description,
   .hero-button {
-    will-change: transform, opacity, box-shadow;
+    will-change: transform, opacity;
   }
 
   ::selection {
