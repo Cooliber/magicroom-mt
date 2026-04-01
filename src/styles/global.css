@@ -14,6 +14,16 @@
   --color-popover: #FDFBF9;
   --color-popover-foreground: #2D2421;
   --color-primary: #8B6F5C;
+  --color-primary-50: #F7F3EF;
+  --color-primary-100: #EDE7E1;
+  --color-primary-200: #D4B8A0;
+  --color-primary-300: #BC9A82;
+  --color-primary-400: #A47D65;
+  --color-primary-500: #8B6F5C;
+  --color-primary-600: #735C4D;
+  --color-primary-700: #5B4939;
+  --color-primary-800: #433626;
+  --color-primary-900: #2D2421;
   --color-primary-foreground: #FDFBF9;
   --color-secondary: #D4B8A0;
   --color-secondary-foreground: #2D2421;
